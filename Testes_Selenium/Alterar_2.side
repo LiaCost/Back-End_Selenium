@@ -1,0 +1,536 @@
+{
+  "id": "a68411eb-6850-401f-8ca3-4378ccd6950d",
+  "version": "2.0",
+  "name": "Alterar",
+  "url": "http://127.0.0.1:5500",
+  "tests": [{
+    "id": "8533c5b0-db56-4cb8-9ee3-f5305ed2d2fb",
+    "name": "Alterar",
+    "commands": [{
+      "id": "683bc540-3fa4-427b-bf0c-16758ed6da2f",
+      "comment": "",
+      "command": "open",
+      "target": "/index2.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3c2df2d-f65a-4b7b-a639-0c554ac3e688",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0da2e83c-7803-4faf-9270-980adc1f8e99",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(1) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr/td[6]/button", "xpath:idRelative"],
+        ["xpath=//td[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Editar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7367fa3c-66c8-4261-8a3b-58e16c332b33",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77431009-0c06-47d4-9e9d-33fe71792ab4",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "Ana Maria "
+    }, {
+      "id": "4d1e8faa-5859-45a9-a686-369907660bf7",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(11)",
+      "targets": [
+        ["css=button:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/button", "xpath:idRelative"],
+        ["xpath=//div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2bc3670-956f-4c3f-8d51-260b092b2edc",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(2) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[2]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fcd9c8f-d8b4-4117-8f37-d6090e0feedb",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5e682eb-a848-40fa-a6ab-c7e1a279a496",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "Carlos Eduardo "
+    }, {
+      "id": "7fa471b4-708c-48d4-a0fe-a3af69b2ea37",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(11)",
+      "targets": [
+        ["css=button:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/button", "xpath:idRelative"],
+        ["xpath=//div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e04462d-ab9b-441f-9138-2c12db33eced",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(3) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[3]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd1451df-feac-4f75-a17a-8c8113686d9b",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0a4b762-9cb8-4349-b182-9f890ea38720",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "Carlos Eduardo "
+    }, {
+      "id": "ea658df0-34ab-4149-b1e8-22285f38fa5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(11)",
+      "targets": [
+        ["css=button:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/button", "xpath:idRelative"],
+        ["xpath=//div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f1412df-5105-493f-afc5-a03cebec5582",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(4) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[4]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee5aaf6e-f3cd-4456-bf95-515baac3f22c",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74874f12-8c23-471d-a8b2-de702a7713ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "Ana Maria"
+    }, {
+      "id": "6605ece1-fa3e-4da0-b7a2-1218a72d56d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(11)",
+      "targets": [
+        ["css=button:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/button", "xpath:idRelative"],
+        ["xpath=//div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c1aa952-da75-4efc-baa8-f0cc88810324",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(5) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[5]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "575ab1fe-5fc2-463f-9a4b-2b210a4b0745",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86df135f-6c9c-4036-9924-5a7dbdc73964",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "Carlos Eduardo "
+    }, {
+      "id": "5d1d3a39-ebe8-402a-8763-b3778631b903",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(11)",
+      "targets": [
+        ["css=button:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/button", "xpath:idRelative"],
+        ["xpath=//div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "880647dc-fed7-496b-a95c-0d581db1f204",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(6) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(6) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[6]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "707c69b1-ce4f-4aab-a997-0338406a074e",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6e598fa-1e92-4f66-831a-2f349682a50e",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "Ana Maria "
+    }, {
+      "id": "7f3283bc-a71e-4ae9-b8b6-224c194eb75b",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(11)",
+      "targets": [
+        ["css=button:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/button", "xpath:idRelative"],
+        ["xpath=//div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69bedb57-1646-4e9f-a29c-9dc809b59ea6",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(7) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(7) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[7]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b0626b1-ded1-44c9-9249-987f2981bd05",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "174fb7b1-9dfa-478c-88c4-31425fdd25bc",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "Carlos Eduardo "
+    }, {
+      "id": "892f6947-b907-4f55-b49f-f70d371fec04",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(11)",
+      "targets": [
+        ["css=button:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/button", "xpath:idRelative"],
+        ["xpath=//div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69da8984-a834-4626-b465-19b680f2251b",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(9) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(9) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[9]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[9]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "977bf1bd-186f-44c0-9141-d42f2c9e5031",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84051cdc-2fe3-472d-9d66-b484b24cc61a",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a8ae737-5fe2-49ac-bb2f-9a026f4cfab7",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b5bd93a-d7dc-48b9-9ef7-d1cf902824b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(11)",
+      "targets": [
+        ["css=button:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/button", "xpath:idRelative"],
+        ["xpath=//div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1af083f-21e2-4fac-acc6-276e568afeed",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(9) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(9) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[9]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[9]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "669249d7-879c-4655-a916-10b18ff76f41",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "Carlos Eduardo "
+    }, {
+      "id": "7eb7e9e0-3433-4426-b0fc-ea75c6b5a68f",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(11)",
+      "targets": [
+        ["css=button:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/button", "xpath:idRelative"],
+        ["xpath=//div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb5bc759-f58e-497f-b7b6-a1ed66d2c2e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(8) .edit-btn",
+      "targets": [
+        ["css=tr:nth-child(8) .edit-btn", "css:finder"],
+        ["xpath=//table[@id='servidoresTable']/tbody/tr[8]/td[6]/button", "xpath:idRelative"],
+        ["xpath=//tr[8]/td[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd542a40-825f-471b-a24b-3f69a66c769a",
+      "comment": "",
+      "command": "click",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94910e9b-4176-44e2-a748-eb9c5524b9cd",
+      "comment": "",
+      "command": "type",
+      "target": "id=edit-nome",
+      "targets": [
+        ["id=edit-nome", "id"],
+        ["css=#edit-nome", "css:finder"],
+        ["xpath=//input[@id='edit-nome']", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//div/form/input[2]", "xpath:position"]
+      ],
+      "value": "Ana Maria "
+    }, {
+      "id": "995969db-6596-4c28-84e3-f0bc2aa8c151",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(11)",
+      "targets": [
+        ["css=button:nth-child(11)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='editForm']/button", "xpath:idRelative"],
+        ["xpath=//div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7e1bbdd8-4c4b-4930-8dd0-1fffa5014089",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8533c5b0-db56-4cb8-9ee3-f5305ed2d2fb"]
+  }],
+  "urls": ["http://127.0.0.1:5500/"],
+  "plugins": []
+}
