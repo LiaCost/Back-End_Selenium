@@ -1,4 +1,4 @@
-⚙️ Projeto Back-End_Selenium: O Back-End_Selenium é um projeto que utiliza o Selenium para automatizar testes de APIs e interações com aplicações web. O objetivo do projeto é garantir que as funcionalidades e fluxos de uma aplicação estejam funcionando corretamente através de testes automatizados.
+⚙️ Projeto Back-End_Selenium: É um projeto que utiliza o Selenium para automatizar testes de APIs e interações com aplicações web. O objetivo do projeto é garantir que as funcionalidades e fluxos de uma aplicação estejam funcionando corretamente através de testes automatizados.
 
 🚀 Tecnologias Utilizadas
 - Selenium: Framework para automação de testes de interfaces web.
